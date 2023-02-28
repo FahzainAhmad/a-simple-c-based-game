@@ -57,7 +57,7 @@ void main(){
 		
 		// Move player according to command.
 		
-		if(ctr=='d'){
+		if(ctr=='d' OR ctr=='D'){
 			if(pos!=99){
 				 pos++;
 			}
@@ -65,7 +65,7 @@ void main(){
 				pos=pos;
 			}
 		}
-		else if(ctr=='a'){
+		else if(ctr=='a' OR ctr=='A'){
 			if(pos!=0){
 				 pos--;
 			}
@@ -73,7 +73,7 @@ void main(){
 				pos=pos;
 			}
 		}
-		else if(ctr=='s'){
+		else if(ctr=='s' OR ctr=='S'){
 			if(pos>89 && pos<100){
 				pos = pos;
 			}
@@ -81,7 +81,7 @@ void main(){
 				pos = pos + 10;
 			}
 		}
-		else if(ctr=='w'){
+		else if(ctr=='w' OR ctr=='W'){
 			if(pos!=0){
 				pos = pos - 10;
 			}
